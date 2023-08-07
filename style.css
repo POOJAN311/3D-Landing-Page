@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mountain1 {
+    position: absolute;
+    width: 1600px;
+    bottom: -100px;
+    right: 0;
+    z-index: 19;
+}
+
+.person {
+    position: absolute;
+    width: 700px;
+    bottom: -130px;
+    left: -70;
+    z-index: 20;
+}
+
+.mountain2 {
+    position: absolute;
+    width: 1150px;
+    bottom: -100px;
+    left: 0;
+    z-index: 18;
+}
+
+.mountain3 {
+    position: absolute;
+    width: 1100px;
+    bottom: 100px;
+    right: 0;
+    z-index: 17;
+}
+
+.sky {
+    position: absolute;
+    width: 2100px;
+    bottom: 170px;
+    right: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 30;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), transparent);
+}
+
+.container {
+    max-width: 70rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.big-title {
+    position: absolute;
+    z-index: 30;
+    line-height: 4rem;
+    top: calc(50% - 2rem);
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+section {
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+
+section img {
+    width: 100%;
+}
+
+section .container {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.content {
+    padding: 3.5rem;
+    color: #fff;
+}
+
+.border {
+    background-color: #fff;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+}
+
+.shadow {
+    position: absolute;
+    bottom: 100%;
+    height: 200px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #151515, transparent);
+}
+
+.opacity {
+    opacity: 0;
+}
